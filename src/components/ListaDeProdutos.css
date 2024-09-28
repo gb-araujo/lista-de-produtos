@@ -1,0 +1,74 @@
+.lista-de-produtos {
+  max-width: 1280px; /* Aumentando a largura */
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.botao-flutuante {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 24px;
+  border: none;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  z-index: 1;
+  transition: bottom 0.3s ease;
+}
+
+.botao-flutuante:hover {
+  background-color: #0056b3;
+}
+
+.adicionar-produto {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.adicionar-produto input {
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.adicionar-produto button {
+  padding: 8px 16px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.produto {
+  list-style: none;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.produto:hover {
+  background-color: #eaeaea;
+}
+
+.remover-produto {
+  color: #dc3545;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+}
+
+.remover-produto:hover {
+  text-decoration: underline;
+}
